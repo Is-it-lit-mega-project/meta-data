@@ -1,4 +1,4 @@
-# Object MOdel
+# Object Model
 ## Character
   * Name
   * Contact Info
