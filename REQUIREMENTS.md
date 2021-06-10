@@ -14,7 +14,7 @@
   * interests to include, ranked
   * max/min of positive/negative relationships or total score
   * sensible defaults for party, all counts in form are displayed as a range based on number possible
-  * submission of form leads to PArty Suggestino PAge
+  * submission of form leads to Party Suggestion Page
 * party suggestion page
   * editable list of all recommended attendees
   * form to add details about quest, date location etc
@@ -25,4 +25,4 @@
   * edit button
   * delete button
 * View page for all Quests, filterable by past and upcoming
-* Characters, Relations, Parties and Quests are all permanently deletable.
+* Characters, Relationships, Parties and Quests are all permanently deletable.

@@ -6,7 +6,7 @@
 
 ## Relationship
   * Members (friends/characters)
-  * Score -2 - +2 (bed - good)
+  * Score -2 - +2 (bad - good)
   * Name (optional)
 
 ## Party
