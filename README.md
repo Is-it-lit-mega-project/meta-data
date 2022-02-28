@@ -6,7 +6,7 @@ Build the same product with different architectures. Pieces should be interchang
 
 
 ## Components
-### Meta
+### MetaData
 We will greate a very simple static page in GitHub Pages to track and link to the various combinations.
 Users can request the stack when accessing Is It Lit - 'cause this is a brag.
 
@@ -20,13 +20,13 @@ Users can request the stack when accessing Is It Lit - 'cause this is a brag.
 
 ### Data
 0. Translation layer to keep databases in sync
-1. AWS SQL Database
+1. AWS Relational Database
 1. AWS Graph Database
 
 ## Requirements
 * AuthN/Z
 * User can have characters in their life to make planning quests easier.  (max 100)
-* User can manage RELATIONSIPS between 2 or more characters.
+* User can manage RELATIONSHIPS between 2 or more characters.
 * Relationships can be positive or negative.
 * Form to add characters.
 * Form to view characters.
@@ -38,7 +38,7 @@ Users can request the stack when accessing Is It Lit - 'cause this is a brag.
   * interests to include, ranked
   * max/min of positive/negative relationships or total score
   * sensible defaults for party, all counts in form are displayed as a range based on number possible
-  * submission of form leads to PArty Suggestino PAge
+  * submission of form leads to Party Suggestion Page
 * party suggestion page
   * editable list of all recommended attendees
   * form to add details about quest, date location etc
@@ -52,7 +52,7 @@ Users can request the stack when accessing Is It Lit - 'cause this is a brag.
 * Characters, Relations, Parties and Quests are all permanently deletable.
 
 
-## Object MOdel
+## Object Model
 ### Character
   * Name
   * Contact Info
@@ -60,7 +60,7 @@ Users can request the stack when accessing Is It Lit - 'cause this is a brag.
 
 ### Relationship
   * Members (friends/characters)
-  * Score -2 - +2 (bed - good)
+  * Score -2 - +2 (bad - good)
   * Name (optional)
 
 ### Party
